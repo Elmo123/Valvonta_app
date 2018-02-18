@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.elja.valvonta_app.MainActivity">
+
+
+    <Button
+        android:id="@+id/recordings_btn"
+        android:layout_width="235dp"
+        android:layout_height="45dp"
+        android:text="Recordings"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="50dp" />
+
+    <Button
+        android:id="@+id/settings_btn"
+        android:layout_width="235dp"
+        android:layout_height="45dp"
+        android:text="Connect to server"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="100dp" />
+
+    <Button
+        android:id="@+id/imageView_btn"
+        android:layout_width="235dp"
+        android:layout_height="45dp"
+        android:text="Show image"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="150dp" />
+    <Button
+        android:id="@+id/makeVideo_btn"
+        android:layout_width="235dp"
+        android:layout_height="45dp"
+        android:text="Make Video"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="150dp" />
+</LinearLayout>
